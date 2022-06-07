@@ -1,7 +1,7 @@
 # My CV for GitHub
 First name: Dmitry\
 Last name: Kovtun\
-BD: 14.10.1991\
+BD: 14.10.1991
 
 ## My Interests
 1. My family
@@ -12,5 +12,3 @@ BD: 14.10.1991\
 3. Books
 4. Studying English
 5. e.t.c.
-
-## 
