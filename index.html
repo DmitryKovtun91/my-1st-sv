@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.png">
     <title>CV</title>
@@ -12,82 +13,73 @@
     <header class="container header">
         <nav class="nav">
             <ul class="navig-list">
-                <li class="navig-li">Contacts</li>
-                <li class="navig-li">Summary</li>
-                <li class="navig-li">Skills</li>
-                <li class="navig-li">Code</li>
-                <li class="navig-li">Courses</li>
-                <li class="navig-li">Education</li>
-                <li class="navig-li">Languages</li>
-                <li class="navig-li">Employment history</li>
+                <li class="navig-li"><a href="#contacts">Contacts</a></li>
+                <li class="navig-li"><a href="#summary">Summary</a></li>
+                <li class="navig-li"><a href="#skills">Skills</a></li>
+                <li class="navig-li"><a href="#courses">Courses/Books</a></li>
+                <li class="navig-li"><a href="#education">Education</a></li>
+                <li class="navig-li"><a href="#languages">Languages</a></li>
             </ul>
         </nav>
     </header>
-    <main class="container">
-        <section class="section section-profile">
-            <div class="main-info">
-                <h1 class="main-info-name">Dmitry Kovtun</h1>
-                <h3 class="main-info-subtitle">Junior Frontend Developer</h3>
-            </div>
-            <img src="assets/avatar.jpg" alt="profile-photo">
-        </section>
-        <section class="section section-contacts">
-            <h2 class="main-section-title">Contacts</h2>
-            <ul class="contacts-ul">
-                <li class="contacts-li">Smorgon, Belarus</li>
-                <li class="contacts-li">Email: kovtun1991141081@gmail.com</li>
-                <li class="contacts-li">Github: <a href="https://github.com/DmitryKovtun91" title="Github">DmitryKovtun91</a></li>
-                <li class="contacts-li">Discord: <a href="" title="Discord">DmitryK91#5199</a> </li>
-            </ul>
-        </section>
-        <section class="section section-summary">
-            <h2 class="main-section-title">Summary</h2>
-            <p class="summary-text">about myself</p>
-        </section>
-        <section class="section section-skills">
-            <h2 class="main-section-title">Skills</h2>
-            <p>skills</p>
-        </section>
-        <section class="section section-code">
-            <h2 class="main-section-title">Code</h2>
-            <p>Code</p>
-        </section>
-        <section class="section setction-courses">
-            <h2 class="main-section-title">Courses</h2>
-            <ul class="courses-ul">
-                <li><a href="#" title="FE/JS">EDIT IT!</a></li>
-            </ul>
-        </section>
-        <section class="section section-education">
-            <h2 class="main-section-title">Education</h2>
-            <p>Course: "Heat supply, gas supply, ventilation and protection of air basin"</p>
-            <p>Speciality: "Building engineer"</p>
-            <p>University: Polotsk State University</p>
-        </section>
-        <section class="section section-lang">
-            <h2 class="main-section-title">Languages</h2>
-            <p>English, B1 &ndash; Pre-Intermediate</p>
-        </section>
-        <section class="section section-empl-history">
-            <h2 class="main-section-title">Employment History</h2>
-            <table class="empl-hist-table">
-                <th>Organization</th>
-                <th>Position at work</th>
-                <th>Period</th>
-                <tr>
-                    <td>Gas supply organization "Smorgongas"</td>
-                    <td>Engineer</td>
-                    <td>01.08.2014 ~ 31.07.2019</td>
-                </tr>
-                <tr>
-                    <td>Smorgon Regional Energy and Gas Inspection</td>
-                    <td>Inspector</td>
-                    <td>01.08.2019 ~ now</td>		
-                </tr>
-        </section>
+    <main class="main">
+        <div class="container container-main">
+            <!--AVA+NAME-->
+            <section class="section-profile">
+                <div class="main-info">
+                    <h1 class="main-info-name">Dmitry Kovtun</h1>
+                    <h3 class="main-info-subtitle">Junior Front-end Developer</h3>
+                </div>
+                <img class="avatar" src="assets/avatar.jpg" alt="profile-photo">
+            </section>
+            <!--CONTACTS-->
+            <section class="section section-contacts">
+                <h2 class="main-section-title" id="contacts">Contacts</h2>
+                <ul class="contacts-ul">
+                    <li class="contacts-li">Smorgon, Belarus</li>
+                    <li class="contacts-li">Email: kovtun1991141081@gmail.com</li>
+                    <li class="contacts-li">Github: <a href="https://github.com/DmitryKovtun91" target="_blank" title="Github">DmitryKovtun91</a></li>
+                    <li class="contacts-li">LinkedIn: <a href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%BA%D0%BE%D0%B2%D1%82%D1%83%D0%BD-16a156238/" target="_blank" title="LinkedIn">Dmitry Kovtun</a></li>
+                </ul>
+            </section>
+            <!--SUMMARY-->
+            <section class="section section-summary">
+                <h2 class="main-section-title" id="summary">Summary</h2>
+                <p class="summary-text">about myself</p>
+            </section>
+            <!--SKILLS-->
+            <section class="section section-skills">
+                <h2 class="main-section-title" id="skills">Skills</h2>
+                <ul class="skills-ul">
+                    <li>HTML (in progress)</li>
+                    <li>CSS (in progress)</li>
+                    <li>JavaScript (in progress)</li>
+                    <li>GIT (in progress)</li>
+                </ul>
+            </section>
+            <!--COURSES-->
+            <section class="section setction-courses">
+                <h2 class="main-section-title" id="courses">Courses/Books</h2>
+                <ul class="courses-ul">
+                    <li>"Head First Html With CSS & XHTML" 2nd edition. Publisher: O'Reilly Media, Inc.</li>
+                </ul>
+            </section>
+            <!--EDUCATION-->
+            <section class="section section-education">
+                <h2 class="main-section-title" id="education">Education</h2>
+                <p>Course: "Heat supply, gas supply, ventilation and protection of air basin"</p>
+                <p>Speciality: "Building engineer"</p>
+                <p>University: Polotsk State University</p>
+            </section>
+            <!--LANGUAGE-->
+            <section class="section section-lang">
+                <h2 class="main-section-title" id="languages">Languages</h2>
+                <p>English, B1 &ndash; Pre-Intermediate</p>
+            </section>
+        </div>
     </main>
     <footer class="container footer">
-        <h3>footer</h3>
+        <p>some text for footer</p>
     </footer>
 </body>
 </html>
